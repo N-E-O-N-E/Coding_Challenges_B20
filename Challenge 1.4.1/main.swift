@@ -32,3 +32,4 @@ Laborbericht: Keine Auffälligkeiten.
 """
 
 print(laborBericht)
+
