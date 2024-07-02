@@ -21,7 +21,6 @@ var stairSteps: Int = 0
 while true {
     stairSteps += 1
     
-    
     if stairSteps == 10 {
         print("übersprungen")
         continue
@@ -32,5 +31,5 @@ while true {
     if stairSteps == 100 {
         break
     }
-   
+    
 }
