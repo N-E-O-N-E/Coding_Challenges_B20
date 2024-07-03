@@ -31,5 +31,4 @@ while true {
     if stairSteps == 100 {
         break
     }
-    
 }
