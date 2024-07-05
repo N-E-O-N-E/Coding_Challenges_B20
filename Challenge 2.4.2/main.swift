@@ -12,7 +12,7 @@ import Foundation
 func luftfeuchtigkeit(aktuelleLuftfeuchtigkeit: Int, idealWert: Int) -> Bool {
     return aktuelleLuftfeuchtigkeit == idealWert
 }
-print("Ist die Luftfeuchtigkeit ideal? Antwort: \(luftfeuchtigkeit(aktuelleLuftfeuchtigkeit: 60, idealWert: 60))")
+print("Ist die Luftfeuchtigkeit ideal? Antwort: \(luftfeuchtigkeit(aktuelleLuftfeuchtigkeit: 65, idealWert: 60))")
 
 
 // Temperatur vergleich
