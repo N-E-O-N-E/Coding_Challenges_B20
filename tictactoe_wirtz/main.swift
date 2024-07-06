@@ -12,15 +12,15 @@ import Foundation
 // ---------------------------------------------------------> Variablen
 
 // Einzelne Felder des Spielfelds
-var f1: String = "x"
-var f2: String = " "
-var f3: String = " "
-var f4: String = " "
-var f5: String = "o"
-var f6: String = "o"
-var f7: String = "x"
-var f8: String = " "
-var f9: String = " "
+var f1: String = "-"
+var f2: String = "-"
+var f3: String = "-"
+var f4: String = "-"
+var f5: String = "-"
+var f6: String = "-"
+var f7: String = "-"
+var f8: String = "-"
+var f9: String = "-"
 
 // Status des Spiels
 var gewonnen: Bool = false
