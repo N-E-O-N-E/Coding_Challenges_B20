@@ -81,8 +81,9 @@ func pruefeSpielstatus() {
        (f3 == spieler_x && f6 == spieler_x && f9 == spieler_x) ||
        (f1 == spieler_x && f5 == spieler_x && f9 == spieler_x) ||
        (f3 == spieler_x && f5 == spieler_x && f7 == spieler_x) {
-        print("\n#### Spieler (\(spieler_x)) hat das Spiel gewonnen! ####")
         gewonnen = true
+        print(aktualisiereSpielfeld())
+        print("\n#### Spieler (\(spieler_x)) hat das Spiel gewonnen! ####")
     }
 
     // Spieler o
@@ -94,8 +95,9 @@ func pruefeSpielstatus() {
        (f3 == spieler_o && f6 == spieler_o && f9 == spieler_o) ||
        (f1 == spieler_o && f5 == spieler_o && f9 == spieler_o) ||
        (f3 == spieler_o && f5 == spieler_o && f7 == spieler_o) {
-        print("\n#### Spieler (\(spieler_o)) hat das Spiel gewonnen! ####")
         gewonnen = true
+        print(aktualisiereSpielfeld())
+        print("\n#### Spieler (\(spieler_o)) hat das Spiel gewonnen! ####")
     }
 }
 
@@ -113,8 +115,6 @@ func aktualisiereSpielfeld() -> String {
 }
 
 
-
-
 // --------------------------------------------------------> Spielstart
 
 print("------ Willkommen bei TicTacToe ------\n")
@@ -129,27 +129,32 @@ print("\nSuper, das Spiel kann beginnen!\n")
 
 repeat {
     if gewonnen == false {
+        
         print(aktualisiereSpielfeld())
 
         print("Spieler (\(spieler_x)), entscheide dich für ein Feld:")
         spielerPosition = String(readLine()!)
         schreibePosition(spieler: spieler_x, position: spielerPosition)
+        
         pruefeSpielstatus()
 
         if gewonnen == false {
+            
             print(aktualisiereSpielfeld())
 
             print("Spieler (\(spieler_o)), entscheide dich für ein Feld:")
             spielerPosition = String(readLine()!)
             schreibePosition(spieler: spieler_o, position: spielerPosition)
+            
             pruefeSpielstatus()
         }
-
-        print(aktualisiereSpielfeld())
+        
     } else {
         break
     }
+    
 } while gewonnen == false
 
-
 print("\n<<< Das Spiel ist beendet! >>>\n")
+
+
