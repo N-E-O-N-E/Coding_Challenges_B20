@@ -7,52 +7,52 @@
 		<key>Challenge 1.2.1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Challenge 1.2.2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Challenge 1.3.1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Challenge 1.3.2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Challenge 1.4.1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Challenge 1.4.2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Challenge 2.1.1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>9</integer>
 		</dict>
 		<key>Challenge 2.1.2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Challenge 2.1.3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>11</integer>
 		</dict>
 		<key>Challenge 2.2.1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>12</integer>
 		</dict>
 		<key>Challenge 2.2.2.xcscheme_^#shared#^_</key>
 		<dict>
@@ -62,42 +62,47 @@
 		<key>Challenge 2.3.1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>14</integer>
 		</dict>
 		<key>Challenge 2.3.2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>15</integer>
 		</dict>
 		<key>Challenge 2.4.1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>16</integer>
 		</dict>
 		<key>Challenge 2.4.2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>17</integer>
 		</dict>
 		<key>Challenge 3.1.1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>18</integer>
 		</dict>
 		<key>Challenge 3.1.2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>19</integer>
 		</dict>
 		<key>Coding_Challenges_B20.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Test.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
+		</dict>
+		<key>structInitAlter_Test.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>tictactoe_wirtz.xcscheme_^#shared#^_</key>
 		<dict>
@@ -107,7 +112,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FA0AC5512C3414AD0085A454</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA2718332C3BD780007C1488</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA27183E2C3BEE5A007C1488</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FA5E81622C2D82AF00655865</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA5E81932C2D83B900655865</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -137,12 +162,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>FA7542772C3C777600CAA82E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAA9EB972C353DF8001AADCF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAA9EBA22C354FDF001AADCF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FAC84EC32C39A70E007C2FE4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>FAD908132C329D3000FDA6C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAD908292C32ADC000FDA6C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

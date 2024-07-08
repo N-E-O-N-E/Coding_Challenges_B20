@@ -7,9 +7,6 @@
 
 import Foundation
 
-
-
-
 struct Besucher {
     
     var besucherName: String
