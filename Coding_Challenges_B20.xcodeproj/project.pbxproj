@@ -23,6 +23,9 @@
 		FAA9EB9B2C353DF8001AADCF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9EB9A2C353DF8001AADCF /* main.swift */; };
 		FAA9EBA62C354FDF001AADCF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9EBA52C354FDF001AADCF /* main.swift */; };
 		FAC84EC72C39A70E007C2FE4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC84EC62C39A70E007C2FE4 /* main.swift */; };
+		FACAAE6F2C3FBD1200FA022B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAAE6E2C3FBD1200FA022B /* main.swift */; };
+		FACAAE7A2C3FCD8E00FA022B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAAE792C3FCD8E00FA022B /* main.swift */; };
+		FACAAE852C3FDEA600FA022B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAAE842C3FDEA600FA022B /* main.swift */; };
 		FAD908172C329D3000FDA6C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD908162C329D3000FDA6C5 /* main.swift */; };
 		FAD9082D2C32ADC000FDA6C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD9082C2C32ADC000FDA6C5 /* main.swift */; };
 		FAE982DB2C369F7C008AC463 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE982DA2C369F7C008AC463 /* main.swift */; };
@@ -177,6 +180,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		FACAAE6A2C3FBD1200FA022B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FACAAE752C3FCD8E00FA022B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FACAAE802C3FDEA600FA022B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		FAD908122C329D3000FDA6C5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +314,12 @@
 		FAA9EBA52C354FDF001AADCF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FAC84EC42C39A70E007C2FE4 /* tictactoe_wirtz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tictactoe_wirtz; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC84EC62C39A70E007C2FE4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FACAAE6C2C3FBD1200FA022B /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACAAE6E2C3FBD1200FA022B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FACAAE772C3FCD8E00FA022B /* Challenge 3.4.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Challenge 3.4.1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACAAE792C3FCD8E00FA022B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FACAAE822C3FDEA600FA022B /* Challenge 3.4.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Challenge 3.4.2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACAAE842C3FDEA600FA022B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FAD908142C329D3000FDA6C5 /* Challenge 2.1.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Challenge 2.1.1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD908162C329D3000FDA6C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FAD9082A2C32ADC000FDA6C5 /* Challenge 2.1.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Challenge 2.1.2"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -414,6 +450,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FACAAE692C3FBD1200FA022B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAAE742C3FCD8E00FA022B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAAE7F2C3FDEA600FA022B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FAD908112C329D3000FDA6C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -518,6 +575,7 @@
 			children = (
 				FAC84EC52C39A70E007C2FE4 /* tictactoe_wirtz */,
 				FA7542792C3C777600CAA82E /* structInitAlter_Test */,
+				FACAAE6D2C3FBD1200FA022B /* test */,
 				FA5E81652C2D82AF00655865 /* Coding_Challenges_B20 */,
 				FA5E81A02C2D83CE00655865 /* Challenge 1.2.1 */,
 				FA5E81AB2C2D83D400655865 /* Challenge 1.2.2 */,
@@ -539,6 +597,8 @@
 				FAF55BB62C3D3DB100D7C0DA /* Challenge 3.2.2 */,
 				FA2D0D6E2C3E799D00F9C60A /* Challenge 3.3.1 */,
 				FA2D0D792C3E8CF600F9C60A /* Challenge 3.3.2 */,
+				FACAAE782C3FCD8E00FA022B /* Challenge 3.4.1 */,
+				FACAAE832C3FDEA600FA022B /* Challenge 3.4.2 */,
 				FA5E81642C2D82AF00655865 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -570,6 +630,9 @@
 				FAF55BB52C3D3DB100D7C0DA /* Challenge 3.2.2 */,
 				FA2D0D6D2C3E799D00F9C60A /* Challenge 3.3.1 */,
 				FA2D0D782C3E8CF600F9C60A /* Challenge 3.3.2 */,
+				FACAAE6C2C3FBD1200FA022B /* test */,
+				FACAAE772C3FCD8E00FA022B /* Challenge 3.4.1 */,
+				FACAAE822C3FDEA600FA022B /* Challenge 3.4.2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -660,6 +723,30 @@
 				FAC84EC62C39A70E007C2FE4 /* main.swift */,
 			);
 			path = tictactoe_wirtz;
+			sourceTree = "<group>";
+		};
+		FACAAE6D2C3FBD1200FA022B /* test */ = {
+			isa = PBXGroup;
+			children = (
+				FACAAE6E2C3FBD1200FA022B /* main.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		FACAAE782C3FCD8E00FA022B /* Challenge 3.4.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FACAAE792C3FCD8E00FA022B /* main.swift */,
+			);
+			path = "Challenge 3.4.1";
+			sourceTree = "<group>";
+		};
+		FACAAE832C3FDEA600FA022B /* Challenge 3.4.2 */ = {
+			isa = PBXGroup;
+			children = (
+				FACAAE842C3FDEA600FA022B /* main.swift */,
+			);
+			path = "Challenge 3.4.2";
 			sourceTree = "<group>";
 		};
 		FAD908152C329D3000FDA6C5 /* Challenge 2.1.1 */ = {
@@ -993,6 +1080,57 @@
 			productReference = FAC84EC42C39A70E007C2FE4 /* tictactoe_wirtz */;
 			productType = "com.apple.product-type.tool";
 		};
+		FACAAE6B2C3FBD1200FA022B /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACAAE722C3FBD1200FA022B /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				FACAAE682C3FBD1200FA022B /* Sources */,
+				FACAAE692C3FBD1200FA022B /* Frameworks */,
+				FACAAE6A2C3FBD1200FA022B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = FACAAE6C2C3FBD1200FA022B /* test */;
+			productType = "com.apple.product-type.tool";
+		};
+		FACAAE762C3FCD8E00FA022B /* Challenge 3.4.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACAAE7B2C3FCD8E00FA022B /* Build configuration list for PBXNativeTarget "Challenge 3.4.1" */;
+			buildPhases = (
+				FACAAE732C3FCD8E00FA022B /* Sources */,
+				FACAAE742C3FCD8E00FA022B /* Frameworks */,
+				FACAAE752C3FCD8E00FA022B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Challenge 3.4.1";
+			productName = "Challenge 3.4.1";
+			productReference = FACAAE772C3FCD8E00FA022B /* Challenge 3.4.1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		FACAAE812C3FDEA600FA022B /* Challenge 3.4.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACAAE882C3FDEA600FA022B /* Build configuration list for PBXNativeTarget "Challenge 3.4.2" */;
+			buildPhases = (
+				FACAAE7E2C3FDEA600FA022B /* Sources */,
+				FACAAE7F2C3FDEA600FA022B /* Frameworks */,
+				FACAAE802C3FDEA600FA022B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Challenge 3.4.2";
+			productName = "Challenge 3.4.2";
+			productReference = FACAAE822C3FDEA600FA022B /* Challenge 3.4.2 */;
+			productType = "com.apple.product-type.tool";
+		};
 		FAD908132C329D3000FDA6C5 /* Challenge 2.1.1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAD9081A2C329D3000FDA6C5 /* Build configuration list for PBXNativeTarget "Challenge 2.1.1" */;
@@ -1187,6 +1325,15 @@
 					FAC84EC32C39A70E007C2FE4 = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					FACAAE6B2C3FBD1200FA022B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FACAAE762C3FCD8E00FA022B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FACAAE812C3FDEA600FA022B = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					FAD908132C329D3000FDA6C5 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -1251,6 +1398,9 @@
 				FAF55BB42C3D3DB100D7C0DA /* Challenge 3.2.2 */,
 				FA2D0D6C2C3E799D00F9C60A /* Challenge 3.3.1 */,
 				FA2D0D772C3E8CF600F9C60A /* Challenge 3.3.2 */,
+				FACAAE6B2C3FBD1200FA022B /* test */,
+				FACAAE762C3FCD8E00FA022B /* Challenge 3.4.1 */,
+				FACAAE812C3FDEA600FA022B /* Challenge 3.4.2 */,
 			);
 		};
 /* End PBXProject section */
@@ -1381,6 +1531,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC84EC72C39A70E007C2FE4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAAE682C3FBD1200FA022B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAAE6F2C3FBD1200FA022B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAAE732C3FCD8E00FA022B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAAE7A2C3FCD8E00FA022B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACAAE7E2C3FDEA600FA022B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACAAE852C3FDEA600FA022B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1856,6 +2030,60 @@
 			};
 			name = Release;
 		};
+		FACAAE702C3FBD1200FA022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FACAAE712C3FBD1200FA022B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FACAAE7C2C3FCD8E00FA022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FACAAE7D2C3FCD8E00FA022B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FACAAE862C3FDEA600FA022B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FACAAE872C3FDEA600FA022B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		FAD908182C329D3000FDA6C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2152,6 +2380,33 @@
 			buildConfigurations = (
 				FAC84EC82C39A70E007C2FE4 /* Debug */,
 				FAC84EC92C39A70E007C2FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACAAE722C3FBD1200FA022B /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAAE702C3FBD1200FA022B /* Debug */,
+				FACAAE712C3FBD1200FA022B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACAAE7B2C3FCD8E00FA022B /* Build configuration list for PBXNativeTarget "Challenge 3.4.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAAE7C2C3FCD8E00FA022B /* Debug */,
+				FACAAE7D2C3FCD8E00FA022B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACAAE882C3FDEA600FA022B /* Build configuration list for PBXNativeTarget "Challenge 3.4.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACAAE862C3FDEA600FA022B /* Debug */,
+				FACAAE872C3FDEA600FA022B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
