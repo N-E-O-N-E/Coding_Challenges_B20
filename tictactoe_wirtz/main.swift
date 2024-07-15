@@ -103,6 +103,7 @@ func pruefeSpielstatus() {
 
 // -------------------------------------------------------> Gibt das Spielfeld als String zurück
 
+
 func aktualisiereSpielfeld() -> String {
     return """
     TicTacToe by Markus Wirtz
@@ -120,7 +121,7 @@ func aktualisiereSpielfeld() -> String {
 print("------ Willkommen bei TicTacToe ------\n")
 
 print("Hallo Spieler 1, bitte vergib ein Spielzeichen:")
-spieler_x = String(readLine()!)
+spieler_x = readLine()!
 
 print("Hallo Spieler 2, bitte vergib ein Spielzeichen:")
 spieler_o = String(readLine()!)
