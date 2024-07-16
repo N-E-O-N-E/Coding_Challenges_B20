@@ -12,6 +12,11 @@ var liste: [String] = []
 print(liste)
 
 // Elemente hinzufügen
+
+// liste.append("Äpfel")
+// liste.append("Bananen")
+// ...
+
 liste += ["Äpfel", "Bananen", "Milch", "Brot", "Butter"]
 print(liste)
 
