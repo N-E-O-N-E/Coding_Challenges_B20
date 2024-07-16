@@ -32,9 +32,3 @@ import Foundation
 //    print("Du hast keinen Spitznamen eingegeben.")
 //}
 
-
-var optionalString: String?
-print("Bitte gib eine Zeichenkette ein:")
-optionalString = readLine()
-
-print("Die Anzahl der Buchstaben in der eingegebenen Zeichenkette ist \(optionalString?.count).")
