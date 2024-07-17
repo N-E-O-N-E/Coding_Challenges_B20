@@ -24,6 +24,8 @@
 		FA75427B2C3C777600CAA82E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75427A2C3C777600CAA82E /* main.swift */; };
 		FAA9EB9B2C353DF8001AADCF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9EB9A2C353DF8001AADCF /* main.swift */; };
 		FAA9EBA62C354FDF001AADCF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA9EBA52C354FDF001AADCF /* main.swift */; };
+		FAB3C1382C47B5DA000A1FFD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3C1372C47B5DA000A1FFD /* main.swift */; };
+		FAB3C1432C47C33E000A1FFD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3C1422C47C33E000A1FFD /* main.swift */; };
 		FAC84EC72C39A70E007C2FE4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC84EC62C39A70E007C2FE4 /* main.swift */; };
 		FACAAE7A2C3FCD8E00FA022B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAAE792C3FCD8E00FA022B /* main.swift */; };
 		FACAAE852C3FDEA600FA022B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAAE842C3FDEA600FA022B /* main.swift */; };
@@ -184,6 +186,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		FAA9EBA12C354FDF001AADCF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FAB3C1332C47B5DA000A1FFD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		FAB3C13E2C47C33E000A1FFD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -355,6 +375,10 @@
 		FAA9EB9A2C353DF8001AADCF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FAA9EBA32C354FDF001AADCF /* Challenge 2.3.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Challenge 2.3.2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA9EBA52C354FDF001AADCF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FAB3C1352C47B5DA000A1FFD /* Challenge 4.3.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Challenge 4.3.1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB3C1372C47B5DA000A1FFD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FAB3C1402C47C33E000A1FFD /* Challenge 4.3.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Challenge 4.3.2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB3C1422C47C33E000A1FFD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FAC84EC42C39A70E007C2FE4 /* tictactoe_wirtz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tictactoe_wirtz; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC84EC62C39A70E007C2FE4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FACAAE6C2C3FBD1200FA022B /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -497,6 +521,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FAA9EBA02C354FDF001AADCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3C1322C47B5DA000A1FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3C13D2C47C33E000A1FFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -692,6 +730,8 @@
 				FA3738242C453974007374EC /* Challenge 4.1.2 */,
 				FAF7E66B2C466C7E007EAA7A /* Challenge 4.2.1 */,
 				FAF7E6762C468AA7007EAA7A /* Challenge 4.2.2 */,
+				FAB3C1362C47B5DA000A1FFD /* Challenge 4.3.1 */,
+				FAB3C1412C47C33E000A1FFD /* Challenge 4.3.2 */,
 				FA5E81642C2D82AF00655865 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -730,6 +770,8 @@
 				FA3738232C453974007374EC /* Challenge 4.1.2 */,
 				FAF7E66A2C466C7E007EAA7A /* Challenge 4.2.1 */,
 				FAF7E6752C468AA7007EAA7A /* Challenge 4.2.2 */,
+				FAB3C1352C47B5DA000A1FFD /* Challenge 4.3.1 */,
+				FAB3C1402C47C33E000A1FFD /* Challenge 4.3.2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -812,6 +854,22 @@
 				FAA9EBA52C354FDF001AADCF /* main.swift */,
 			);
 			path = "Challenge 2.3.2";
+			sourceTree = "<group>";
+		};
+		FAB3C1362C47B5DA000A1FFD /* Challenge 4.3.1 */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3C1372C47B5DA000A1FFD /* main.swift */,
+			);
+			path = "Challenge 4.3.1";
+			sourceTree = "<group>";
+		};
+		FAB3C1412C47C33E000A1FFD /* Challenge 4.3.2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3C1422C47C33E000A1FFD /* main.swift */,
+			);
+			path = "Challenge 4.3.2";
 			sourceTree = "<group>";
 		};
 		FAC84EC52C39A70E007C2FE4 /* tictactoe_wirtz */ = {
@@ -1202,6 +1260,40 @@
 			productReference = FAA9EBA32C354FDF001AADCF /* Challenge 2.3.2 */;
 			productType = "com.apple.product-type.tool";
 		};
+		FAB3C1342C47B5DA000A1FFD /* Challenge 4.3.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB3C13B2C47B5DA000A1FFD /* Build configuration list for PBXNativeTarget "Challenge 4.3.1" */;
+			buildPhases = (
+				FAB3C1312C47B5DA000A1FFD /* Sources */,
+				FAB3C1322C47B5DA000A1FFD /* Frameworks */,
+				FAB3C1332C47B5DA000A1FFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Challenge 4.3.1";
+			productName = "Challenge 4.3.1";
+			productReference = FAB3C1352C47B5DA000A1FFD /* Challenge 4.3.1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		FAB3C13F2C47C33E000A1FFD /* Challenge 4.3.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB3C1462C47C33E000A1FFD /* Build configuration list for PBXNativeTarget "Challenge 4.3.2" */;
+			buildPhases = (
+				FAB3C13C2C47C33E000A1FFD /* Sources */,
+				FAB3C13D2C47C33E000A1FFD /* Frameworks */,
+				FAB3C13E2C47C33E000A1FFD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Challenge 4.3.2";
+			productName = "Challenge 4.3.2";
+			productReference = FAB3C1402C47C33E000A1FFD /* Challenge 4.3.2 */;
+			productType = "com.apple.product-type.tool";
+		};
 		FAC84EC32C39A70E007C2FE4 /* tictactoe_wirtz */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAC84ECA2C39A70E007C2FE4 /* Build configuration list for PBXNativeTarget "tictactoe_wirtz" */;
@@ -1501,6 +1593,12 @@
 					FAA9EBA22C354FDF001AADCF = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					FAB3C1342C47B5DA000A1FFD = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FAB3C13F2C47C33E000A1FFD = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					FAC84EC32C39A70E007C2FE4 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -1590,6 +1688,8 @@
 				FA3738222C453974007374EC /* Challenge 4.1.2 */,
 				FAF7E6692C466C7E007EAA7A /* Challenge 4.2.1 */,
 				FAF7E6742C468AA7007EAA7A /* Challenge 4.2.2 */,
+				FAB3C1342C47B5DA000A1FFD /* Challenge 4.3.1 */,
+				FAB3C13F2C47C33E000A1FFD /* Challenge 4.3.2 */,
 			);
 		};
 /* End PBXProject section */
@@ -1728,6 +1828,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA9EBA62C354FDF001AADCF /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3C1312C47B5DA000A1FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB3C1382C47B5DA000A1FFD /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3C13C2C47C33E000A1FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB3C1432C47C33E000A1FFD /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2268,6 +2384,42 @@
 			};
 			name = Release;
 		};
+		FAB3C1392C47B5DA000A1FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FAB3C13A2C47B5DA000A1FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FAB3C1442C47C33E000A1FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FAB3C1452C47C33E000A1FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		FAC84EC82C39A70E007C2FE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2681,6 +2833,24 @@
 			buildConfigurations = (
 				FAA9EBA72C354FDF001AADCF /* Debug */,
 				FAA9EBA82C354FDF001AADCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB3C13B2C47B5DA000A1FFD /* Build configuration list for PBXNativeTarget "Challenge 4.3.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB3C1392C47B5DA000A1FFD /* Debug */,
+				FAB3C13A2C47B5DA000A1FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB3C1462C47C33E000A1FFD /* Build configuration list for PBXNativeTarget "Challenge 4.3.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB3C1442C47C33E000A1FFD /* Debug */,
+				FAB3C1452C47C33E000A1FFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
