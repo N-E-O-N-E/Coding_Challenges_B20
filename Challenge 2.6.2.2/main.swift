@@ -27,3 +27,4 @@ let malRechnen : (Int, Int) -> Void = { (a: Int, b: Int) -> Void in
 
 gehirn(zahl1: 5, zahl2: 5, rechne: plusRechnen)
 gehirn(zahl1: 5, zahl2: 5, rechne: malRechnen)
+
