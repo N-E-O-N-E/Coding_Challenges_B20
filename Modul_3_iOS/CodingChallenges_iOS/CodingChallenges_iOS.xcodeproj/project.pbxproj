@@ -12,6 +12,7 @@
 		FAAE17932C7DC5AC00E732C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAE17922C7DC5AC00E732C7 /* Preview Assets.xcassets */; };
 		FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */; };
 		FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */; };
+		FADC70032C7DD414009DF471 /* Challenge_3.01.02_Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FAAE17922C7DC5AC00E732C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Challenge_3.01.01.swift; path = CodingChallenges_iOS/Challenge_3.01.01.swift; sourceTree = "<group>"; };
 		FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Challenge_3.01.02.swift; path = CodingChallenges_iOS/Challenge_3.01.02.swift; sourceTree = "<group>"; };
+		FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Challenge_3.01.02_Cake.swift; path = CodingChallenges_iOS/Challenge_3.01.02_Cake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			children = (
 				FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */,
 				FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */,
+				FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */,
 				FAAE178A2C7DC5AA00E732C7 /* CodingChallenges_iOS */,
 				FAAE17892C7DC5AA00E732C7 /* Products */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */,
 				FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */,
+				FADC70032C7DD414009DF471 /* Challenge_3.01.02_Cake.swift in Sources */,
 				FAAE178C2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
