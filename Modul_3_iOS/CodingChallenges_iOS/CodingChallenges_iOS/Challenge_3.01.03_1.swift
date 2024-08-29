@@ -25,8 +25,9 @@ struct Challenge_3_01_03_1: View {
                 Text("Maus")
                     .padding(4)
                     .background(.yellow)
-                    .padding(4)
+                    .padding(7)
                     .opacity(0.5)
+                    .clipShape(.circle)
                     
             
             }

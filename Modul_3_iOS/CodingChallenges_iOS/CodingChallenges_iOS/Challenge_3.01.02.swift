@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView_30102: View {
     
     let kuchen = [
         Cake(icon: "🍰", name: "Käsekuchen"),
