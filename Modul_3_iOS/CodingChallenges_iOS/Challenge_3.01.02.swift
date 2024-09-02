@@ -44,5 +44,5 @@ struct ContentView_30102: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView_30102()
 }

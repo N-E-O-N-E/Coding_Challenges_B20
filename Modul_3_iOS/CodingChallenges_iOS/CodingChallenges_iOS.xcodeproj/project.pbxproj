@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA8A3B8F2C7F042200DFF815 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A3B8E2C7F042200DFF815 /* test.swift */; };
 		FA8A3B912C7F16A000DFF815 /* Challenge_3.01.03_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A3B902C7F16A000DFF815 /* Challenge_3.01.03_1.swift */; };
 		FA8A3B932C7F253C00DFF815 /* Challenge_3.01.03.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A3B922C7F253C00DFF815 /* Challenge_3.01.03.2.swift */; };
+		FA9F48182C859F9600E2DA8A /* Challenge_03.02.01-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F48172C859F9600E2DA8A /* Challenge_03.02.01-1.swift */; };
+		FA9F481A2C85B4BF00E2DA8A /* Challenge_03.02.01-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F48192C85B4BF00E2DA8A /* Challenge_03.02.01-2.swift */; };
 		FAAE178C2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE178B2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift */; };
 		FAAE17902C7DC5AC00E732C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAE178F2C7DC5AC00E732C7 /* Assets.xcassets */; };
 		FAAE17932C7DC5AC00E732C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAE17922C7DC5AC00E732C7 /* Preview Assets.xcassets */; };
@@ -20,17 +21,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA8A3B8E2C7F042200DFF815 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		FA8A3B902C7F16A000DFF815 /* Challenge_3.01.03_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Challenge_3.01.03_1.swift; path = CodingChallenges_iOS/Challenge_3.01.03_1.swift; sourceTree = "<group>"; };
-		FA8A3B922C7F253C00DFF815 /* Challenge_3.01.03.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Challenge_3.01.03.2.swift; path = CodingChallenges_iOS/Challenge_3.01.03.2.swift; sourceTree = "<group>"; };
+		FA8A3B902C7F16A000DFF815 /* Challenge_3.01.03_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.03_1.swift; sourceTree = "<group>"; };
+		FA8A3B922C7F253C00DFF815 /* Challenge_3.01.03.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.03.2.swift; sourceTree = "<group>"; };
+		FA9F48172C859F9600E2DA8A /* Challenge_03.02.01-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.02.01-1.swift"; sourceTree = "<group>"; };
+		FA9F48192C85B4BF00E2DA8A /* Challenge_03.02.01-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.02.01-2.swift"; sourceTree = "<group>"; };
 		FAAE17882C7DC5AA00E732C7 /* CodingChallenges_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingChallenges_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAE178B2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallenges_iOSApp.swift; sourceTree = "<group>"; };
 		FAAE178F2C7DC5AC00E732C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAAE17922C7DC5AC00E732C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FAAFD7B32C806DBD00D52FDA /* Challenge_3.01.4_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Challenge_3.01.4_2.swift; path = CodingChallenges_iOS/Challenge_3.01.4_2.swift; sourceTree = "<group>"; };
-		FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Challenge_3.01.01.swift; path = CodingChallenges_iOS/Challenge_3.01.01.swift; sourceTree = "<group>"; };
-		FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Challenge_3.01.02.swift; path = CodingChallenges_iOS/Challenge_3.01.02.swift; sourceTree = "<group>"; };
-		FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Challenge_3.01.02_Cake.swift; path = CodingChallenges_iOS/Challenge_3.01.02_Cake.swift; sourceTree = "<group>"; };
+		FAAFD7B32C806DBD00D52FDA /* Challenge_3.01.4_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.4_2.swift; sourceTree = "<group>"; };
+		FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.01.swift; sourceTree = "<group>"; };
+		FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.02.swift; sourceTree = "<group>"; };
+		FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.02_Cake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +49,17 @@
 		FAAE177F2C7DC5AA00E732C7 = {
 			isa = PBXGroup;
 			children = (
+				FA9F48192C85B4BF00E2DA8A /* Challenge_03.02.01-2.swift */,
+				FA9F48172C859F9600E2DA8A /* Challenge_03.02.01-1.swift */,
 				FAAFD7B32C806DBD00D52FDA /* Challenge_3.01.4_2.swift */,
 				FA8A3B922C7F253C00DFF815 /* Challenge_3.01.03.2.swift */,
 				FA8A3B902C7F16A000DFF815 /* Challenge_3.01.03_1.swift */,
 				FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */,
 				FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */,
 				FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */,
-				FA8A3B8E2C7F042200DFF815 /* test.swift */,
-				FAAE178A2C7DC5AA00E732C7 /* CodingChallenges_iOS */,
+				FAAE178B2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift */,
+				FAAE17912C7DC5AC00E732C7 /* Preview Content */,
+				FAAE178F2C7DC5AC00E732C7 /* Assets.xcassets */,
 				FAAE17892C7DC5AA00E732C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,16 +70,6 @@
 				FAAE17882C7DC5AA00E732C7 /* CodingChallenges_iOS.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FAAE178A2C7DC5AA00E732C7 /* CodingChallenges_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FAAE178B2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift */,
-				FAAE178F2C7DC5AC00E732C7 /* Assets.xcassets */,
-				FAAE17912C7DC5AC00E732C7 /* Preview Content */,
-			);
-			path = CodingChallenges_iOS;
 			sourceTree = "<group>";
 		};
 		FAAE17912C7DC5AC00E732C7 /* Preview Content */ = {
@@ -158,10 +153,11 @@
 				FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */,
 				FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */,
 				FAAFD7B42C806DBD00D52FDA /* Challenge_3.01.4_2.swift in Sources */,
+				FA9F481A2C85B4BF00E2DA8A /* Challenge_03.02.01-2.swift in Sources */,
 				FADC70032C7DD414009DF471 /* Challenge_3.01.02_Cake.swift in Sources */,
 				FA8A3B912C7F16A000DFF815 /* Challenge_3.01.03_1.swift in Sources */,
-				FA8A3B8F2C7F042200DFF815 /* test.swift in Sources */,
 				FA8A3B932C7F253C00DFF815 /* Challenge_3.01.03.2.swift in Sources */,
+				FA9F48182C859F9600E2DA8A /* Challenge_03.02.01-1.swift in Sources */,
 				FAAE178C2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CodingChallenges_iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -323,7 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CodingChallenges_iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
