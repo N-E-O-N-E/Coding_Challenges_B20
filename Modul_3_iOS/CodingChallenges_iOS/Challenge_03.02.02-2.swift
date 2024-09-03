@@ -26,7 +26,7 @@ struct Challenge_03_02_02_2: View {
                     
                     VStack(alignment: .trailing){
                         
-                        ForEach(0..<anzahl) { _ in
+                        ForEach(0..<anzahl, id: \.self) { _ in
                             Text("Vorname: ")
                             Text("Nachname: ")
                             Text("E-Mail: ")
