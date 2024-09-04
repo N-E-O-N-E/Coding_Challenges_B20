@@ -20,6 +20,8 @@
 		FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */; };
 		FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */; };
 		FADC70032C7DD414009DF471 /* Challenge_3.01.02_Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */; };
+		FAEB1E2E2C884A96006F9963 /* Challenge_03.02.03-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEB1E2D2C884A96006F9963 /* Challenge_03.02.03-1.swift */; };
+		FAEB1E302C8856C5006F9963 /* Challenge_03.02.3-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEB1E2F2C8856C5006F9963 /* Challenge_03.02.3-2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.01.swift; sourceTree = "<group>"; };
 		FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.02.swift; sourceTree = "<group>"; };
 		FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.02_Cake.swift; sourceTree = "<group>"; };
+		FAEB1E2D2C884A96006F9963 /* Challenge_03.02.03-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.02.03-1.swift"; sourceTree = "<group>"; };
+		FAEB1E2F2C8856C5006F9963 /* Challenge_03.02.3-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.02.3-2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		FAAE177F2C7DC5AA00E732C7 = {
 			isa = PBXGroup;
 			children = (
+				FAEB1E2F2C8856C5006F9963 /* Challenge_03.02.3-2.swift */,
+				FAEB1E2D2C884A96006F9963 /* Challenge_03.02.03-1.swift */,
 				FA5F93C22C86F49800690175 /* Challenge_03.02.02-2.swift */,
 				FA5F93C02C86EDFC00690175 /* Challenge_03.02.02-1.swift */,
 				FA9F48192C85B4BF00E2DA8A /* Challenge_03.02.01-2.swift */,
@@ -161,6 +167,8 @@
 				FA5F93C32C86F49800690175 /* Challenge_03.02.02-2.swift in Sources */,
 				FAAFD7B42C806DBD00D52FDA /* Challenge_3.01.4_2.swift in Sources */,
 				FA9F481A2C85B4BF00E2DA8A /* Challenge_03.02.01-2.swift in Sources */,
+				FAEB1E2E2C884A96006F9963 /* Challenge_03.02.03-1.swift in Sources */,
+				FAEB1E302C8856C5006F9963 /* Challenge_03.02.3-2.swift in Sources */,
 				FADC70032C7DD414009DF471 /* Challenge_3.01.02_Cake.swift in Sources */,
 				FA8A3B912C7F16A000DFF815 /* Challenge_3.01.03_1.swift in Sources */,
 				FA5F93C12C86EDFC00690175 /* Challenge_03.02.02-1.swift in Sources */,
