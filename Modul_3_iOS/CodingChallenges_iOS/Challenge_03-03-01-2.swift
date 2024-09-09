@@ -9,51 +9,49 @@ import SwiftUI
 
 struct Challenge_03_03_01_2: View {
     
-    let lehrer = ["Herr Schmitt"]
+    struct person: Identifiable {
+        
+        var id: UUID = UUID()
+        var name: String = ""
+        var position: String = ""
+    }
     
-    @State private var schueler = ["Max Mustermann",
-                                   "Beate Beispiel",
-                                   "Donner Wetter",
-                                   "Paul Prototype",
-                                   "Eva Exemplar",
-                                   "Felix Versuch",
-                                   "Hans Zimmer",
-                                   "Klara Fall",
-                                   "Ernst Haft",
-                                   "Hella Wahnsinn"]
+    @State private var personen: [person] = [
+        .init(id: UUID(), name: "Herr Schmitt", position: "Lehrer"),
+        .init(id: UUID(), name: "Max", position: "Schüler"),
+        .init(id: UUID(), name: "Isabell", position: "Schüler"),
+        .init(id: UUID(), name: "Julia", position: "Schüler"),
+        .init(id: UUID(), name: "Paul", position: "Schüler"),
+        .init(id: UUID(), name: "Eva", position: "Schüler"),
+        .init(id: UUID(), name: "Felix", position: "Schüler"),
+        .init(id: UUID(), name: "Klara", position: "Schüler"),
+        .init(id: UUID(), name: "Patrick", position: "Schüler"),
+        .init(id: UUID(), name: "Martin", position: "Schüler"),
+        
+    ]
     
     var body: some View {
         
         List{
             Section("Lehrer \(Image(systemName: "person.fill" ))") {
-                ForEach(lehrer, id: \.self) { lehrerName in
-                    Text(lehrerName)
-                } //forEach
-            } //section
-            
+                ForEach(personen.filter { $0.position == "Lehrer"}) { person in
+                    Text(person.name)
+                    
+                }
+            }
             Section("Schüler \(Image(systemName: "person.2.fill" ))") {
-                ForEach(schueler, id: \.self) { schuelerName in
-                    Text(schuelerName)
+                ForEach(personen.filter {$0.position == "Schüler"}) { person in
+                    Text(person.name)
                         .swipeActions(edge: .trailing) {
-                            
                             Button("Löschen", role: .destructive) {
-                                if let index = schueler.firstIndex(of: schuelerName) {
-                                    schueler.remove(at: index)
+                                personen.removeAll(where: { $0.id == person.id})
                                 }
                             }
                         }
-                } //forEach
-            } //section
-        } // liste
-        Text("Listeninhalt").font(.title3).underline()
-        ForEach(schueler, id: \.self) { name in
-            Text(name)
+                }
+            }
         }
-    } //View
-}// struct
-
-
-
+    }
 
 #Preview {
     Challenge_03_03_01_2()
