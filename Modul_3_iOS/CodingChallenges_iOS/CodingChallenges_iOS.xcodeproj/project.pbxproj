@@ -22,6 +22,7 @@
 		FAAE17932C7DC5AC00E732C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAE17922C7DC5AC00E732C7 /* Preview Assets.xcassets */; };
 		FAAFD7B42C806DBD00D52FDA /* Challenge_3.01.4_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFD7B32C806DBD00D52FDA /* Challenge_3.01.4_2.swift */; };
 		FAB4FAE72C8EDDDA00D79B00 /* Challenge_03.03.01-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4FAE62C8EDDDA00D79B00 /* Challenge_03.03.01-1.swift */; };
+		FAB4FAE92C8EF3D200D79B00 /* Challenge_03-03-01-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4FAE82C8EF3D200D79B00 /* Challenge_03-03-01-2.swift */; };
 		FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */; };
 		FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */; };
 		FADC70032C7DD414009DF471 /* Challenge_3.01.02_Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */; };
@@ -46,6 +47,7 @@
 		FAAE17922C7DC5AC00E732C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAAFD7B32C806DBD00D52FDA /* Challenge_3.01.4_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.4_2.swift; sourceTree = "<group>"; };
 		FAB4FAE62C8EDDDA00D79B00 /* Challenge_03.03.01-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.03.01-1.swift"; sourceTree = "<group>"; };
+		FAB4FAE82C8EF3D200D79B00 /* Challenge_03-03-01-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03-03-01-2.swift"; sourceTree = "<group>"; };
 		FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.01.swift; sourceTree = "<group>"; };
 		FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.02.swift; sourceTree = "<group>"; };
 		FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.02_Cake.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		FAAE177F2C7DC5AA00E732C7 = {
 			isa = PBXGroup;
 			children = (
+				FAB4FAE82C8EF3D200D79B00 /* Challenge_03-03-01-2.swift */,
 				FAB4FAE62C8EDDDA00D79B00 /* Challenge_03.03.01-1.swift */,
 				FA141DCE2C89A4D7003875E0 /* Diagramme.swift */,
 				FA141DCC2C89A404003875E0 /* Ladebalken.swift */,
@@ -191,6 +194,7 @@
 				FA141DC92C899644003875E0 /* Challenge_03.02.04-1.swift in Sources */,
 				FA8A3B912C7F16A000DFF815 /* Challenge_3.01.03_1.swift in Sources */,
 				FA5F93C12C86EDFC00690175 /* Challenge_03.02.02-1.swift in Sources */,
+				FAB4FAE92C8EF3D200D79B00 /* Challenge_03-03-01-2.swift in Sources */,
 				FA8A3B932C7F253C00DFF815 /* Challenge_3.01.03.2.swift in Sources */,
 				FA9F48182C859F9600E2DA8A /* Challenge_03.02.01-1.swift in Sources */,
 				FA141DCD2C89A404003875E0 /* Ladebalken.swift in Sources */,
