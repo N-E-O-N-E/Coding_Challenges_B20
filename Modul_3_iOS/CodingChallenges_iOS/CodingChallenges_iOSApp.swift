@@ -7,12 +7,12 @@
 
 import SwiftUI
 
+
 @main
 struct CodingChallenges_iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            
-            ContentView()
+            Challenge_03_05_02_1() 
             
         }
     }

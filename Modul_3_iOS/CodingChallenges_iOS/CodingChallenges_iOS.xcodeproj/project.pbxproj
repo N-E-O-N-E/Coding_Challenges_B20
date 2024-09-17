@@ -29,7 +29,16 @@
 		FAB4FAE92C8EF3D200D79B00 /* Challenge_03-03-01-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4FAE82C8EF3D200D79B00 /* Challenge_03-03-01-2.swift */; };
 		FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */; };
 		FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */; };
+		FAD4A3E72C9821BE0014511F /* Chalenge_03.05.01-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3E62C9821BE0014511F /* Chalenge_03.05.01-1.swift */; };
+		FAD4A3E92C982F090014511F /* Challenge_03.05.01-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3E82C982F090014511F /* Challenge_03.05.01-2.swift */; };
+		FAD4A3EC2C9834EF0014511F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3EB2C9834EF0014511F /* User.swift */; };
+		FAD4A3EE2C9834F90014511F /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3ED2C9834F90014511F /* Favorite.swift */; };
+		FAD4A3F02C9834FF0014511F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3EF2C9834FF0014511F /* Movie.swift */; };
+		FAD4A3F22C98350C0014511F /* Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3F12C98350C0014511F /* Actor.swift */; };
+		FAD4A3F42C9835150014511F /* Moviegenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3F32C9835150014511F /* Moviegenre.swift */; };
 		FADC70032C7DD414009DF471 /* Challenge_3.01.02_Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */; };
+		FAE4FD182C9969E400F9DD7B /* Challenge_03.05.02-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4FD172C9969E400F9DD7B /* Challenge_03.05.02-1.swift */; };
+		FAE4FD1A2C997C6600F9DD7B /* Challenge_03.05.02-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4FD192C997C6600F9DD7B /* Challenge_03.05.02-2.swift */; };
 		FAEB1E2E2C884A96006F9963 /* Challenge_03.02.03-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEB1E2D2C884A96006F9963 /* Challenge_03.02.03-1.swift */; };
 		FAEB1E302C8856C5006F9963 /* Challenge_03.02.3-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEB1E2F2C8856C5006F9963 /* Challenge_03.02.3-2.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +67,16 @@
 		FAB4FAE82C8EF3D200D79B00 /* Challenge_03-03-01-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03-03-01-2.swift"; sourceTree = "<group>"; };
 		FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.01.swift; sourceTree = "<group>"; };
 		FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.02.swift; sourceTree = "<group>"; };
+		FAD4A3E62C9821BE0014511F /* Chalenge_03.05.01-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chalenge_03.05.01-1.swift"; sourceTree = "<group>"; };
+		FAD4A3E82C982F090014511F /* Challenge_03.05.01-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.05.01-2.swift"; sourceTree = "<group>"; };
+		FAD4A3EB2C9834EF0014511F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAD4A3ED2C9834F90014511F /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		FAD4A3EF2C9834FF0014511F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		FAD4A3F12C98350C0014511F /* Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actor.swift; sourceTree = "<group>"; };
+		FAD4A3F32C9835150014511F /* Moviegenre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moviegenre.swift; sourceTree = "<group>"; };
 		FADC70022C7DD414009DF471 /* Challenge_3.01.02_Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.02_Cake.swift; sourceTree = "<group>"; };
+		FAE4FD172C9969E400F9DD7B /* Challenge_03.05.02-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.05.02-1.swift"; sourceTree = "<group>"; };
+		FAE4FD192C997C6600F9DD7B /* Challenge_03.05.02-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.05.02-2.swift"; sourceTree = "<group>"; };
 		FAEB1E2D2C884A96006F9963 /* Challenge_03.02.03-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.02.03-1.swift"; sourceTree = "<group>"; };
 		FAEB1E2F2C8856C5006F9963 /* Challenge_03.02.3-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.02.3-2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +95,10 @@
 		FAAE177F2C7DC5AA00E732C7 = {
 			isa = PBXGroup;
 			children = (
+				FAE4FD192C997C6600F9DD7B /* Challenge_03.05.02-2.swift */,
+				FAE4FD172C9969E400F9DD7B /* Challenge_03.05.02-1.swift */,
+				FAD4A3EA2C98349E0014511F /* Challenge_03.05.01-2 */,
+				FAD4A3E62C9821BE0014511F /* Chalenge_03.05.01-1.swift */,
 				FA8262E82C919A83005819EB /* Challenge_03.03.3-2.swift */,
 				FA8262E62C91861C005819EB /* Challenge_03.03.3-1.swift */,
 				FA8262E22C9049E9005819EB /* Challenge_03.03.02-2.swift */,
@@ -120,6 +142,19 @@
 				FAAE17922C7DC5AC00E732C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAD4A3EA2C98349E0014511F /* Challenge_03.05.01-2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAD4A3E82C982F090014511F /* Challenge_03.05.01-2.swift */,
+				FAD4A3EB2C9834EF0014511F /* User.swift */,
+				FAD4A3ED2C9834F90014511F /* Favorite.swift */,
+				FAD4A3EF2C9834FF0014511F /* Movie.swift */,
+				FAD4A3F12C98350C0014511F /* Actor.swift */,
+				FAD4A3F32C9835150014511F /* Moviegenre.swift */,
+			);
+			path = "Challenge_03.05.01-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD4A3EC2C9834EF0014511F /* User.swift in Sources */,
 				FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */,
 				FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */,
 				FAB4FAE72C8EDDDA00D79B00 /* Challenge_03.03.01-1.swift in Sources */,
@@ -203,8 +239,12 @@
 				FAEB1E2E2C884A96006F9963 /* Challenge_03.02.03-1.swift in Sources */,
 				FA141DCF2C89A4D7003875E0 /* Diagramme.swift in Sources */,
 				FAEB1E302C8856C5006F9963 /* Challenge_03.02.3-2.swift in Sources */,
+				FAD4A3F22C98350C0014511F /* Actor.swift in Sources */,
 				FADC70032C7DD414009DF471 /* Challenge_3.01.02_Cake.swift in Sources */,
 				FA141DCB2C899D75003875E0 /* Challenge_03.02.04-2.swift in Sources */,
+				FAD4A3F02C9834FF0014511F /* Movie.swift in Sources */,
+				FAD4A3E92C982F090014511F /* Challenge_03.05.01-2.swift in Sources */,
+				FAD4A3E72C9821BE0014511F /* Chalenge_03.05.01-1.swift in Sources */,
 				FA141DC92C899644003875E0 /* Challenge_03.02.04-1.swift in Sources */,
 				FA8A3B912C7F16A000DFF815 /* Challenge_3.01.03_1.swift in Sources */,
 				FA8262E92C919A83005819EB /* Challenge_03.03.3-2.swift in Sources */,
@@ -213,7 +253,11 @@
 				FAB4FAE92C8EF3D200D79B00 /* Challenge_03-03-01-2.swift in Sources */,
 				FA8A3B932C7F253C00DFF815 /* Challenge_3.01.03.2.swift in Sources */,
 				FA9F48182C859F9600E2DA8A /* Challenge_03.02.01-1.swift in Sources */,
+				FAE4FD182C9969E400F9DD7B /* Challenge_03.05.02-1.swift in Sources */,
+				FAD4A3EE2C9834F90014511F /* Favorite.swift in Sources */,
+				FAE4FD1A2C997C6600F9DD7B /* Challenge_03.05.02-2.swift in Sources */,
 				FA141DCD2C89A404003875E0 /* Ladebalken.swift in Sources */,
+				FAD4A3F42C9835150014511F /* Moviegenre.swift in Sources */,
 				FAAE178C2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
