@@ -11,9 +11,16 @@ import SwiftData
 struct Challenge_03_05_02_2: View {
     
     @Environment(\.modelContext) private var kunden
+    
     @Query private var kundenListe: [Kunden]
     
     @State private var textInput: String = ""
+    
+    func kundeHinzu() {
+        let eintrag = Kunden(kundenname: textInput, alter: 25, ticketGueltig: true)
+        kunden.insert(eintrag)
+        textInput = ""
+    }
     
     var body: some View {
        
@@ -21,16 +28,14 @@ struct Challenge_03_05_02_2: View {
             Text("Name eingeben: ")
             TextField("Name", text: $textInput).textFieldStyle(.roundedBorder).textInputAutocapitalization(.sentences)
                 .onSubmit {
-                    let currentEntry = Kunden(kundenname: textInput, alter: 25, ticketGueltig: true)
-                    kunden.insert(currentEntry)
-                    textInput = ""
+                    kundeHinzu()
                 }
-                
-               
+            
         }.padding(.horizontal)
             .modelContainer(for: [
                 Fahrkarte.self, Kunden.self
             ])
+            
         
         List {
             if kundenListe.isEmpty {
