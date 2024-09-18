@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-struct ContentView: View {
+struct ContentView_03_02_01_2: View {
     
     @State private var number: Int = 10
     @State private var feuerwerk = false
@@ -60,6 +60,6 @@ struct CountdownView2: View {
 }
 
 #Preview(body: {
-    ContentView()
+    ContentView_03_02_01_2()
   
 })

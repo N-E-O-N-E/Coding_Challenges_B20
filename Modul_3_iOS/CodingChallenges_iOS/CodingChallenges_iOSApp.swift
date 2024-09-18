@@ -6,14 +6,17 @@
 //
 
 import SwiftUI
-
+import SwiftData
 
 @main
 struct CodingChallenges_iOSApp: App {
     var body: some Scene {
         WindowGroup {
-            Challenge_03_05_02_1() 
             
-        }
+            ContentView_03_05_03_1()
+            
+        }.modelContainer(for: [
+            Book.self
+        ])
     }
 }
