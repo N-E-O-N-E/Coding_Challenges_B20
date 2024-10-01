@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "All Of Me",
+        "artist": "John Lennon"
+    },
+    {
+        "id": 2,
+        "name": "Let It Be",
+        "artist": "The Beatles"
+    },
+    {
+        "id": 3,
+        "name": "Bohemian Rhapsody",
+        "artist": "Queen"
+    },
+    {
+        "id": 4,
+        "name": "Stairway to Heaven",
+        "artist": "Led Zeppelin"
+    },
+    {
+        "id": 5,
+        "name": "Hotel California",
+        "artist": "Eagles"
+    },
+    {
+        "id": 6,
+        "name": "Billie Jean",
+        "artist": "Michael Jackson"
+    },
+    {
+        "id": 7,
+        "name": "Shape of You",
+        "artist": "Ed Sheeran"
+    },
+    {
+        "id": 8,
+        "name": "Rolling in the Deep",
+        "artist": "Adele"
+    },
+    {
+        "id": 9,
+        "name": "Smells Like Teen Spirit",
+        "artist": "Nirvana"
+    },
+    {
+        "id": 10,
+        "name": "Imagine",
+        "artist": "John Lennon"
+    }
+]

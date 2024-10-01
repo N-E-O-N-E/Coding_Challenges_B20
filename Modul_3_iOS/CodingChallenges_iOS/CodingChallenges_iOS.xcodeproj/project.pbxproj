@@ -29,6 +29,9 @@
 		FAB4FAE92C8EF3D200D79B00 /* Challenge_03-03-01-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB4FAE82C8EF3D200D79B00 /* Challenge_03-03-01-2.swift */; };
 		FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */; };
 		FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */; };
+		FAC26E3A2CABDD58004F686E /* Challenge_03-06-02-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC26E392CABDD58004F686E /* Challenge_03-06-02-1.swift */; };
+		FAC26E3C2CABF818004F686E /* Challenge_03-06-02-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC26E3B2CABF818004F686E /* Challenge_03-06-02-2.swift */; };
+		FAC26E3E2CABF88B004F686E /* Songs.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC26E3D2CABF88B004F686E /* Songs.json */; };
 		FAD4A3E72C9821BE0014511F /* Chalenge_03.05.01-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3E62C9821BE0014511F /* Chalenge_03.05.01-1.swift */; };
 		FAD4A3E92C982F090014511F /* Challenge_03.05.01-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3E82C982F090014511F /* Challenge_03.05.01-2.swift */; };
 		FAD4A3EC2C9834EF0014511F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3EB2C9834EF0014511F /* User.swift */; };
@@ -68,6 +71,9 @@
 		FAB4FAE82C8EF3D200D79B00 /* Challenge_03-03-01-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03-03-01-2.swift"; sourceTree = "<group>"; };
 		FAC236FC2C7DC81C0074F186 /* Challenge_3.01.01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.01.swift; sourceTree = "<group>"; };
 		FAC236FD2C7DC81C0074F186 /* Challenge_3.01.02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.02.swift; sourceTree = "<group>"; };
+		FAC26E392CABDD58004F686E /* Challenge_03-06-02-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03-06-02-1.swift"; sourceTree = "<group>"; };
+		FAC26E3B2CABF818004F686E /* Challenge_03-06-02-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03-06-02-2.swift"; sourceTree = "<group>"; };
+		FAC26E3D2CABF88B004F686E /* Songs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Songs.json; sourceTree = "<group>"; };
 		FAD4A3E62C9821BE0014511F /* Chalenge_03.05.01-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chalenge_03.05.01-1.swift"; sourceTree = "<group>"; };
 		FAD4A3E82C982F090014511F /* Challenge_03.05.01-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.05.01-2.swift"; sourceTree = "<group>"; };
 		FAD4A3EB2C9834EF0014511F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -105,6 +111,9 @@
 		FAAE177F2C7DC5AA00E732C7 = {
 			isa = PBXGroup;
 			children = (
+				FAC26E3D2CABF88B004F686E /* Songs.json */,
+				FAC26E3B2CABF818004F686E /* Challenge_03-06-02-2.swift */,
+				FAC26E392CABDD58004F686E /* Challenge_03-06-02-1.swift */,
 				FAF5FDB72C9C25BA00D13A59 /* Challenge_03_05_03_1.swift */,
 				FAAFD7022C9ABBF900496B0D /* ContentView_03_05_03_1 */,
 				FAE4FD192C997C6600F9DD7B /* Challenge_03.05.02-2.swift */,
@@ -230,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC26E3E2CABF88B004F686E /* Songs.json in Resources */,
 				FAAE17932C7DC5AC00E732C7 /* Preview Assets.xcassets in Resources */,
 				FAAE17902C7DC5AC00E732C7 /* Assets.xcassets in Resources */,
 			);
@@ -246,6 +256,7 @@
 				FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */,
 				FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */,
 				FAB4FAE72C8EDDDA00D79B00 /* Challenge_03.03.01-1.swift in Sources */,
+				FAC26E3C2CABF818004F686E /* Challenge_03-06-02-2.swift in Sources */,
 				FA5F93C32C86F49800690175 /* Challenge_03.02.02-2.swift in Sources */,
 				FAAFD7B42C806DBD00D52FDA /* Challenge_3.01.4_2.swift in Sources */,
 				FA8262E72C91861C005819EB /* Challenge_03.03.3-1.swift in Sources */,
@@ -260,6 +271,7 @@
 				FA141DCB2C899D75003875E0 /* Challenge_03.02.04-2.swift in Sources */,
 				FAD4A3F02C9834FF0014511F /* Movie.swift in Sources */,
 				FAD4A3E92C982F090014511F /* Challenge_03.05.01-2.swift in Sources */,
+				FAC26E3A2CABDD58004F686E /* Challenge_03-06-02-1.swift in Sources */,
 				FAD4A3E72C9821BE0014511F /* Chalenge_03.05.01-1.swift in Sources */,
 				FA141DC92C899644003875E0 /* Challenge_03.02.04-1.swift in Sources */,
 				FA8A3B912C7F16A000DFF815 /* Challenge_3.01.03_1.swift in Sources */,
