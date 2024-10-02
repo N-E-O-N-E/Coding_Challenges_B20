@@ -17,6 +17,7 @@
 		FA8262E32C9049E9005819EB /* Challenge_03.03.02-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8262E22C9049E9005819EB /* Challenge_03.03.02-2.swift */; };
 		FA8262E72C91861C005819EB /* Challenge_03.03.3-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8262E62C91861C005819EB /* Challenge_03.03.3-1.swift */; };
 		FA8262E92C919A83005819EB /* Challenge_03.03.3-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8262E82C919A83005819EB /* Challenge_03.03.3-2.swift */; };
+		FA87C6292CAD2FE900716534 /* Challenge_03-06-03-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87C6282CAD2FE900716534 /* Challenge_03-06-03-1.swift */; };
 		FA8A3B912C7F16A000DFF815 /* Challenge_3.01.03_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A3B902C7F16A000DFF815 /* Challenge_3.01.03_1.swift */; };
 		FA8A3B932C7F253C00DFF815 /* Challenge_3.01.03.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A3B922C7F253C00DFF815 /* Challenge_3.01.03.2.swift */; };
 		FA9F48182C859F9600E2DA8A /* Challenge_03.02.01-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F48172C859F9600E2DA8A /* Challenge_03.02.01-1.swift */; };
@@ -58,6 +59,7 @@
 		FA8262E22C9049E9005819EB /* Challenge_03.03.02-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.03.02-2.swift"; sourceTree = "<group>"; };
 		FA8262E62C91861C005819EB /* Challenge_03.03.3-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.03.3-1.swift"; sourceTree = "<group>"; };
 		FA8262E82C919A83005819EB /* Challenge_03.03.3-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.03.3-2.swift"; sourceTree = "<group>"; };
+		FA87C6282CAD2FE900716534 /* Challenge_03-06-03-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03-06-03-1.swift"; sourceTree = "<group>"; };
 		FA8A3B902C7F16A000DFF815 /* Challenge_3.01.03_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.03_1.swift; sourceTree = "<group>"; };
 		FA8A3B922C7F253C00DFF815 /* Challenge_3.01.03.2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_3.01.03.2.swift; sourceTree = "<group>"; };
 		FA9F48172C859F9600E2DA8A /* Challenge_03.02.01-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.02.01-1.swift"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 			children = (
 				FAC26E3D2CABF88B004F686E /* Songs.json */,
 				FAC26E3B2CABF818004F686E /* Challenge_03-06-02-2.swift */,
+				FA87C6282CAD2FE900716534 /* Challenge_03-06-03-1.swift */,
 				FAC26E392CABDD58004F686E /* Challenge_03-06-02-1.swift */,
 				FAF5FDB72C9C25BA00D13A59 /* Challenge_03_05_03_1.swift */,
 				FAAFD7022C9ABBF900496B0D /* ContentView_03_05_03_1 */,
@@ -255,6 +258,7 @@
 				FAD4A3EC2C9834EF0014511F /* User.swift in Sources */,
 				FAC236FE2C7DC81C0074F186 /* Challenge_3.01.01.swift in Sources */,
 				FAC236FF2C7DC81C0074F186 /* Challenge_3.01.02.swift in Sources */,
+				FA87C6292CAD2FE900716534 /* Challenge_03-06-03-1.swift in Sources */,
 				FAB4FAE72C8EDDDA00D79B00 /* Challenge_03.03.01-1.swift in Sources */,
 				FAC26E3C2CABF818004F686E /* Challenge_03-06-02-2.swift in Sources */,
 				FA5F93C32C86F49800690175 /* Challenge_03.02.02-2.swift in Sources */,
