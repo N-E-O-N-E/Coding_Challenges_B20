@@ -15,11 +15,13 @@ struct Challenge_03_06_03_2: View {
     
     var body: some View {
         
-        Text("Async Bild...")
+        Text("Async Bild...").font(.title)
         
         Button {
             //image = "https://picsum.photos/500/500"
             image = "https://picsum.photos/\(Int.random(in: 500...600))/\(Int.random(in: 500...600))"
+            //image = "https://picsum.photos/500/500?random=\(Int.random(in: 1...1000))"
+            
         } label: {
             AsyncImage(url: URL(string: image)) { image in
                 image
@@ -28,11 +30,9 @@ struct Challenge_03_06_03_2: View {
                     .clipShape(.rect(cornerRadius: 8))
                 
             } placeholder: {
-                ProgressView()
+                ProgressView().progressViewStyle(.linear)
             }
         }
-        
-        
     }
 }
 
