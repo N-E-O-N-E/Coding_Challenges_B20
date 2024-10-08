@@ -3,14 +3,14 @@ import SwiftUI
 // ViewModel
 @MainActor
 class CounterViewModel: ObservableObject {
-    @Published var counter: Int = 0
+    @Published var counter: Int = 3400
     
     func increase() {
-        counter += 1
+        counter += 100
     }
     
     func decrease() {
-        counter -= 1
+        counter -= 100
     }
 }
 
@@ -20,17 +20,23 @@ struct Challenge_03_07_01_2: View {
     
     var body: some View {
         
-        Button {
-            viewModel.increase()
-        } label: {
-            Text(" + ")
-        }.buttonStyle(.borderedProminent)
+        Text("Kontostand").font(.title3).bold().padding(10)
+        Text("\(viewModel.counter) EUR").font(.title).padding(40)
         
-        Button {
-            viewModel.decrease()
-        } label: {
-            Text(" - ")
-        }.buttonStyle(.borderedProminent)
+        HStack {
+            Button {
+                viewModel.increase()
+            } label: {
+                Text(" + ")
+            }.buttonStyle(.borderedProminent)
+            
+            
+            Button {
+                viewModel.decrease()
+            } label: {
+                Text(" - ")
+            }.buttonStyle(.borderedProminent)
+        }
     }
 }
 
