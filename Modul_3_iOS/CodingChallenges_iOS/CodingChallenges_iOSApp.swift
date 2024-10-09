@@ -13,10 +13,8 @@ struct CodingChallenges_iOSApp: App {
     var body: some Scene {
         WindowGroup {
             
-            ContentView_03_05_03_1()
+            Challenge_03_07_02_1()
             
-        }.modelContainer(for: [
-            Book.self
-        ])
+        }
     }
 }

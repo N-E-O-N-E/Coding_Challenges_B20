@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA004B252CB66FD2006492E3 /* CodingChallenges_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE178B2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift */; };
 		FA141DC92C899644003875E0 /* Challenge_03.02.04-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA141DC82C899644003875E0 /* Challenge_03.02.04-1.swift */; };
 		FA141DCB2C899D75003875E0 /* Challenge_03.02.04-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA141DCA2C899D75003875E0 /* Challenge_03.02.04-2.swift */; };
 		FA141DCD2C89A404003875E0 /* Ladebalken.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA141DCC2C89A404003875E0 /* Ladebalken.swift */; };
@@ -24,7 +25,6 @@
 		FA8A3B932C7F253C00DFF815 /* Challenge_3.01.03.2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8A3B922C7F253C00DFF815 /* Challenge_3.01.03.2.swift */; };
 		FA9F48182C859F9600E2DA8A /* Challenge_03.02.01-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F48172C859F9600E2DA8A /* Challenge_03.02.01-1.swift */; };
 		FA9F481A2C85B4BF00E2DA8A /* Challenge_03.02.01-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F48192C85B4BF00E2DA8A /* Challenge_03.02.01-2.swift */; };
-		FAAE178C2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAE178B2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift */; };
 		FAAE17902C7DC5AC00E732C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAE178F2C7DC5AC00E732C7 /* Assets.xcassets */; };
 		FAAE17932C7DC5AC00E732C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAE17922C7DC5AC00E732C7 /* Preview Assets.xcassets */; };
 		FAAFD7B42C806DBD00D52FDA /* Challenge_3.01.4_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAFD7B32C806DBD00D52FDA /* Challenge_3.01.4_2.swift */; };
@@ -96,6 +96,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA004B152CB66C76006492E3 /* Challenge_03_07_02_1 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Challenge_03_07_02_1;
+			sourceTree = "<group>";
+		};
 		FA286A192CB54B9A004BDA24 /* Challenge_03-07-01-2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Challenge_03-07-01-2";
@@ -122,6 +127,7 @@
 		FAAE177F2C7DC5AA00E732C7 = {
 			isa = PBXGroup;
 			children = (
+				FA004B152CB66C76006492E3 /* Challenge_03_07_02_1 */,
 				FA286A192CB54B9A004BDA24 /* Challenge_03-07-01-2 */,
 				FA4AB5D12CB3F43D005D1050 /* Challenge_03-06-04-2.swift */,
 				FAC26E3D2CABF88B004F686E /* Songs.json */,
@@ -209,6 +215,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				FA004B152CB66C76006492E3 /* Challenge_03_07_02_1 */,
 				FA286A192CB54B9A004BDA24 /* Challenge_03-07-01-2 */,
 				FAAFD7022C9ABBF900496B0D /* ContentView_03_05_03_1 */,
 			);
@@ -224,7 +231,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					FAAE17872C7DC5AA00E732C7 = {
@@ -300,12 +307,12 @@
 				FAB4FAE92C8EF3D200D79B00 /* Challenge_03-03-01-2.swift in Sources */,
 				FA8A3B932C7F253C00DFF815 /* Challenge_3.01.03.2.swift in Sources */,
 				FA9F48182C859F9600E2DA8A /* Challenge_03.02.01-1.swift in Sources */,
+				FA004B252CB66FD2006492E3 /* CodingChallenges_iOSApp.swift in Sources */,
 				FAE4FD182C9969E400F9DD7B /* Challenge_03.05.02-1.swift in Sources */,
 				FAD4A3EE2C9834F90014511F /* Favorite.swift in Sources */,
 				FAE4FD1A2C997C6600F9DD7B /* Challenge_03.05.02-2.swift in Sources */,
 				FA141DCD2C89A404003875E0 /* Ladebalken.swift in Sources */,
 				FAD4A3F42C9835150014511F /* Moviegenre.swift in Sources */,
-				FAAE178C2C7DC5AA00E732C7 /* CodingChallenges_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,16 +443,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +463,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.neone.CodingChallengesiOS.CodingChallenges-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -470,16 +480,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,6 +500,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.neone.CodingChallengesiOS.CodingChallenges-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
