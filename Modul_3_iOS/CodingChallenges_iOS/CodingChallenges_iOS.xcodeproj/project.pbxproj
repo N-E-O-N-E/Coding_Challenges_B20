@@ -35,6 +35,7 @@
 		FAC26E3A2CABDD58004F686E /* Challenge_03-06-02-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC26E392CABDD58004F686E /* Challenge_03-06-02-1.swift */; };
 		FAC26E3C2CABF818004F686E /* Challenge_03-06-02-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC26E3B2CABF818004F686E /* Challenge_03-06-02-2.swift */; };
 		FAC26E3E2CABF88B004F686E /* Songs.json in Resources */ = {isa = PBXBuildFile; fileRef = FAC26E3D2CABF88B004F686E /* Songs.json */; };
+		FACCE3212CB7BE080035B0C8 /* Challenge_03_07_03_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACCE3202CB7BE080035B0C8 /* Challenge_03_07_03_1.swift */; };
 		FAD4A3E72C9821BE0014511F /* Chalenge_03.05.01-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3E62C9821BE0014511F /* Chalenge_03.05.01-1.swift */; };
 		FAD4A3E92C982F090014511F /* Challenge_03.05.01-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3E82C982F090014511F /* Challenge_03.05.01-2.swift */; };
 		FAD4A3EC2C9834EF0014511F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD4A3EB2C9834EF0014511F /* User.swift */; };
@@ -80,6 +81,7 @@
 		FAC26E392CABDD58004F686E /* Challenge_03-06-02-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03-06-02-1.swift"; sourceTree = "<group>"; };
 		FAC26E3B2CABF818004F686E /* Challenge_03-06-02-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03-06-02-2.swift"; sourceTree = "<group>"; };
 		FAC26E3D2CABF88B004F686E /* Songs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Songs.json; sourceTree = "<group>"; };
+		FACCE3202CB7BE080035B0C8 /* Challenge_03_07_03_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_03_07_03_1.swift; sourceTree = "<group>"; };
 		FAD4A3E62C9821BE0014511F /* Chalenge_03.05.01-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chalenge_03.05.01-1.swift"; sourceTree = "<group>"; };
 		FAD4A3E82C982F090014511F /* Challenge_03.05.01-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge_03.05.01-2.swift"; sourceTree = "<group>"; };
 		FAD4A3EB2C9834EF0014511F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		FAAE177F2C7DC5AA00E732C7 = {
 			isa = PBXGroup;
 			children = (
+				FACCE3202CB7BE080035B0C8 /* Challenge_03_07_03_1.swift */,
 				FA004B152CB66C76006492E3 /* Challenge_03_07_02_1 */,
 				FA286A192CB54B9A004BDA24 /* Challenge_03-07-01-2 */,
 				FA4AB5D12CB3F43D005D1050 /* Challenge_03-06-04-2.swift */,
@@ -292,6 +295,7 @@
 				FAF5FDB82C9C25BA00D13A59 /* Challenge_03_05_03_1.swift in Sources */,
 				FAEB1E302C8856C5006F9963 /* Challenge_03.02.3-2.swift in Sources */,
 				FAD4A3F22C98350C0014511F /* Actor.swift in Sources */,
+				FACCE3212CB7BE080035B0C8 /* Challenge_03_07_03_1.swift in Sources */,
 				FADC70032C7DD414009DF471 /* Challenge_3.01.02_Cake.swift in Sources */,
 				FA141DCB2C899D75003875E0 /* Challenge_03.02.04-2.swift in Sources */,
 				FAD4A3F02C9834FF0014511F /* Movie.swift in Sources */,
