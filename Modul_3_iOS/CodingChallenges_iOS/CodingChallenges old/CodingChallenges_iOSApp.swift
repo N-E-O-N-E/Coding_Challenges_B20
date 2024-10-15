@@ -7,14 +7,17 @@
 
 import SwiftUI
 import SwiftData
+import FirebaseCore
 
 @main
 struct CodingChallenges_iOSApp: App {
+    
+    
+    
     var body: some Scene {
         WindowGroup {
             
-            Challenge_03_07_02_1()
-            
+            Challenge_03_06_03_2()
         }
     }
 }

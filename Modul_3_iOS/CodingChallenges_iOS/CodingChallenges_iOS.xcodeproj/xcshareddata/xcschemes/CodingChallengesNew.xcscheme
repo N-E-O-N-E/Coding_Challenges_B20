@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAAE17872C7DC5AA00E732C7"
-               BuildableName = "CodingChallenges_iOS.app"
-               BlueprintName = "CodingChallenges_iOS"
+               BlueprintIdentifier = "FA02698F2CBE8C0100154BB5"
+               BuildableName = "CodingChallengesNew.app"
+               BlueprintName = "CodingChallengesNew"
                ReferencedContainer = "container:CodingChallenges_iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAAE17872C7DC5AA00E732C7"
-            BuildableName = "CodingChallenges_iOS.app"
-            BlueprintName = "CodingChallenges_iOS"
+            BlueprintIdentifier = "FA02698F2CBE8C0100154BB5"
+            BuildableName = "CodingChallengesNew.app"
+            BlueprintName = "CodingChallengesNew"
             ReferencedContainer = "container:CodingChallenges_iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FAAE17872C7DC5AA00E732C7"
-            BuildableName = "CodingChallenges_iOS.app"
-            BlueprintName = "CodingChallenges_iOS"
+            BlueprintIdentifier = "FA02698F2CBE8C0100154BB5"
+            BuildableName = "CodingChallengesNew.app"
+            BlueprintName = "CodingChallengesNew"
             ReferencedContainer = "container:CodingChallenges_iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
