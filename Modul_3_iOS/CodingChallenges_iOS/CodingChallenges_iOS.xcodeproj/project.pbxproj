@@ -20,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		FA0269882CBE8AE700154BB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FA0269902CBE8C0100154BB5 /* CodingChallengesNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CodingChallengesNew.app; path = "/Users/markuswirtz/Dokumente/Entwicklung/Projekte/Neone/Coding_Challenges_B20/Modul_3_iOS/CodingChallenges_iOS/build/Debug-iphoneos/CodingChallengesNew.app"; sourceTree = "<absolute>"; };
-		FAAE17882C7DC5AA00E732C7 /* CodingChallenges_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CodingChallenges_iOS.app; path = "/Users/markuswirtz/Dokumente/Entwicklung/Projekte/Neone/Coding_Challenges_B20/Modul_3_iOS/CodingChallenges_iOS/build/Debug-iphoneos/CodingChallenges_iOS.app"; sourceTree = "<absolute>"; };
+		FA58A9902CBFA41700406BEC /* CodingChallenges_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingChallenges_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA58A9912CBFA41700406BEC /* CodingChallengesNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingChallengesNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -68,6 +68,8 @@
 				FA0269AD2CBE8E3F00154BB5 /* CodingChallenges old */,
 				FA0269912CBE8C0100154BB5 /* CodingChallengesNew */,
 				FA0269882CBE8AE700154BB5 /* GoogleService-Info.plist */,
+				FA58A9902CBFA41700406BEC /* CodingChallenges_iOS.app */,
+				FA58A9912CBFA41700406BEC /* CodingChallengesNew.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +97,7 @@
 				FA0269A32CBE8C3900154BB5 /* FirebaseCore */,
 			);
 			productName = CodingChallengesNew;
-			productReference = FA0269902CBE8C0100154BB5 /* CodingChallengesNew.app */;
+			productReference = FA58A9912CBFA41700406BEC /* CodingChallengesNew.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FAAE17872C7DC5AA00E732C7 /* CodingChallenges_iOS */ = {
@@ -115,7 +117,7 @@
 			);
 			name = CodingChallenges_iOS;
 			productName = CodingChallenges_iOS;
-			productReference = FAAE17882C7DC5AA00E732C7 /* CodingChallenges_iOS.app */;
+			productReference = FA58A9902CBFA41700406BEC /* CodingChallenges_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
