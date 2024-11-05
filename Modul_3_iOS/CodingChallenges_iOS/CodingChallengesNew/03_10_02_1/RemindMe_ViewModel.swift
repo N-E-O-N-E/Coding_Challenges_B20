@@ -8,7 +8,6 @@
 import Foundation
 import NotificationCenter
 
-@MainActor
 class RemindMe_ViewModel: ObservableObject {
        
     private let center = UNUserNotificationCenter.current()
@@ -33,7 +32,6 @@ class RemindMe_ViewModel: ObservableObject {
         let content = UNMutableNotificationContent()
         content.title = "Reminder"
         content.body = "This is a reminder"
-        content.sound = .default
         
         var time = DateComponents()
         time.second = 5
