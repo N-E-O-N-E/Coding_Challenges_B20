@@ -11,21 +11,22 @@ import Firebase
 @main
 struct CodingChallengesNewApp: App {
     
-    init() {
-        FirebaseConfiguration.shared.setLoggerLevel(.min)
-        FirebaseApp.configure()
-    }
+//    init() {
+//        FirebaseConfiguration.shared.setLoggerLevel(.min)
+//        FirebaseApp.configure()
+//    }
     
     var body: some Scene {
         WindowGroup {
-            if authViewModel().isUserLoggedIn {
-                Challenge_03_09_02_2_View()
-            } else {
-                Challenge_03_09_02_2_Login()
-            }
+//            if authViewModel().isUserLoggedIn {
+//                Challenge_03_09_02_2_View()
+//            } else {
+//                Challenge_03_09_02_2_Login()
+//            }
+            RemindMe_View()
         }
         
-        .environmentObject(authViewModel())
+//        .environmentObject(authViewModel())
         }
     }
 
