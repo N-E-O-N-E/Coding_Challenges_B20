@@ -23,7 +23,7 @@ struct CodingChallengesNewApp: App {
 //            } else {
 //                Challenge_03_09_02_2_Login()
 //            }
-            RemindMe_View()
+            _3_10_03_2()
         }
         
 //        .environmentObject(authViewModel())
