@@ -20,6 +20,11 @@ struct FlippingCardPerform: View {
             flip ? .degrees(0.0) : .degrees(180.0)
         }
     }
+    private var rotationAngleFront: Angle {
+        withAnimation {
+            flip ? .degrees(180.0) : .degrees(0.0)
+        }
+    }
     
     var body: some View {
         VStack {
@@ -31,16 +36,29 @@ struct FlippingCardPerform: View {
             }
         }
         
-        Text("Das ist eine Benachrichtigung welche automatisch wieder verschwindet.")
-            .padding()
-            .background(Color.black.opacity(0.8))
-            .foregroundColor(.white)
-            .cornerRadius(8)
-            .padding(.top, 50)
-            .frame(width: 300, height: 150)
-            .opacity(flip ? 1 : 0)
-            .rotation3DEffect(rotationAngle, axis: (x: 0, y: 1, z: 0))
-            .animation(.linear, value: rotationAngle)
+        ZStack {
+            Text("Das ist eine Benachrichtigung welche automatisch wieder verschwindet.")
+                .padding()
+                .background(Color.black.opacity(0.8))
+                .foregroundColor(.white)
+                .cornerRadius(8)
+                .padding(.top, 50)
+                .frame(width: 300, height: 150)
+                .opacity(flip ? 1 : 0)
+                .rotation3DEffect(rotationAngle, axis: (x: 0, y: 1, z: 0))
+                .animation(.linear, value: rotationAngle)
+            
+            Text("Geheimtext")
+                .padding()
+                .background(Color.blue.opacity(0.8))
+                .foregroundColor(.white)
+                .cornerRadius(8)
+                .padding(.top, 50)
+                .frame(width: 300, height: 150)
+                .opacity(flip ? 0 : 1)
+                .rotation3DEffect(rotationAngleFront, axis: (x: 0, y: 1, z: 0))
+                .animation(.linear, value: rotationAngle)
+        }
     }
 }
 
